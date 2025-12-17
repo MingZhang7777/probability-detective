@@ -1,8 +1,15 @@
 {
-  "framework": "static",
-  "buildCommand": null,
-  "outputDirectory": null,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/frontend/index.html" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/index.html"
+    }
   ]
 }
