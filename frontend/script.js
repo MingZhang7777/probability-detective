@@ -1,7 +1,7 @@
 // ==================== 全局配置 ====================
 // 【重要】请将下面的 YOUR_RENDER_BACKEND_URL 替换成你实际的Render后端地址
 // 例如：const API_BASE_URL = 'https://prob-backend.onrender.com';
-const API_BASE_URL = 'https://your-render-backend-url.onrender.com';
+const API_BASE_URL = 'https://prob-backend.onrender.com';
 // =================================================
 
 // 全局状态
