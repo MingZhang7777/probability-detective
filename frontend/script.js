@@ -1,3 +1,6 @@
+// 配置后端API基础地址 (请替换成你的真实Render地址)
+const API_BASE_URL = 'https://prob-backend.onrender.com';
+
 function showTeacherPanel() {
     document.body.innerHTML = `
         <div class="container mt-5">
